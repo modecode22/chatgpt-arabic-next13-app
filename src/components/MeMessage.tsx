@@ -7,7 +7,7 @@ const MeMessage = () => {
         <h1>You</h1>
       </div>
 
-      <div className="w-full border h-full p-2 rounded-2xl border-lime-50/20">
+      <div className="w-full border h-full p-2 rounded-xl rounded-tl-none border-lime-50/20">
         dfgdsfg
       </div>
     </div>

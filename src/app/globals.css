@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.flicker {
+  background: #eeffef6b;
+  box-shadow: 0 0 20px #eeffef6b, 0 0 30px #eeffef6b, 0 0 40px rgba(131, 204, 22, 0.393), 0 0 70px rgba(131, 204, 22, 0.393), 0 0 80px rgba(131, 204, 22, 0.653), 0 0 100px rgba(131, 204, 22, 0.393), 0 0 150px rgba(131, 204, 22, 0.393);
+}
+
