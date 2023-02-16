@@ -1,7 +1,9 @@
+"use client"
+import {signIn} from "next-auth/react"
 
 const LogInBtn = () => {
   return (
-    <button className="group transition-all p-2 flex justify-center items-center gap-2 border-2 border-lime-500/20 rounded-xl hover:border-lime-500  duration-100 bg-gray-900 hover:bg-gray-800 text-lime-50/80 hover:text-lime-50  shadow-md shadow-lime-500/10 hover:shadow-lime-500/40 active:text-white active:shadow-lg active:border-lime-400 active:bg-gray-700 ">
+    <button onClick={()=>{signIn("google")}} className="group transition-all p-2 flex justify-center items-center gap-2 border-2 border-lime-500/20 rounded-xl hover:border-lime-500  duration-100 bg-gray-900 hover:bg-gray-800 text-lime-50/80 hover:text-lime-50  shadow-md shadow-lime-500/10 hover:shadow-lime-500/40 active:text-white active:shadow-lg active:border-lime-400 active:bg-gray-700 ">
       <span>
         <svg
           xmlns="http://www.w3.org/2000/svg"

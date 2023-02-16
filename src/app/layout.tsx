@@ -1,5 +1,6 @@
 import LogInPage from '@/components/LogInPage'
 import SessionProvider from '@/components/SessionProvider'
+import SideBar from '@/components/SideBar'
 import { authOptions } from '@/pages/api/auth/[...nextauth]'
 import {getServerSession} from 'next-auth'
 import './globals.css'
@@ -21,14 +22,19 @@ const session = await getServerSession(authOptions)
       <head />
       <body className="bg-gray-900 text-lime-50 h-screen">
         <SessionProvider session={session}>
-        {!session ?(
-          <LogInPage/>
-        ):(
-          <>
-          {children}
-          </>
-        )}
-     </SessionProvider>
+          {!session ? (
+            <>
+              <LogInPage />
+            </>
+          ) : (
+            <>
+              <SideBar />
+              <main className="ml-16 p-5 h-full flex flex-col justify-center items-center gap-5">
+                {children}
+              </main>
+            </>
+          )}
+        </SessionProvider>
       </body>
     </html>
   );
