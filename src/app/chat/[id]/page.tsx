@@ -1,11 +1,19 @@
+import InputForChat from "@/components/InputForChat";
+import Messages from "@/components/Messages";
 
-const ChatPage = () => {
-    
+
+type Props = {
+  params:{
+    id: string
+  }
+}
+const ChatPage = ({params:{id}}:Props) => {
   return (
     <>
-    chat page
+      <Messages chatId={id} />
+      <InputForChat chatId={id} />
     </>
-  )
-}
+  );
+};
 
 export default ChatPage;
