@@ -41,8 +41,11 @@ router.replace("/chats");
             />
           </svg>
         </span>
+        <p  className="line-clamp-1">
+
         {messages?.docs[messages?.docs.length - 1]?.data().text ||
           "محادثة جديدة"}
+        </p>
       </Link>
 
       <span

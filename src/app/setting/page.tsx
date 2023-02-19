@@ -1,8 +1,11 @@
+import SelectModel from "@/components/SelectModel";
 
 const page = () => {
   return (
-    <>setting</>
-  )
+    <>
+      <SelectModel />
+    </>
+  );
 }
 
 export default page
