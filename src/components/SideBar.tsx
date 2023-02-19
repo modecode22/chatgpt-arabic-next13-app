@@ -11,7 +11,7 @@ const SideBar = () => {
 
         <AddNewChatBtn />
 
-        <SideBarBtn link="/" name="Home">
+        <SideBarBtn link="/" name="الرئيسية">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -27,7 +27,7 @@ const SideBar = () => {
             />
           </svg>
         </SideBarBtn>
-        <SideBarBtn link="/chats" name="Saved Chats">
+        <SideBarBtn link="/chats" name="المحادثات المحفوظة">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -44,7 +44,7 @@ const SideBar = () => {
           </svg>
         </SideBarBtn>
 
-        <SideBarBtn link="/contact" name="Call Us">
+        <SideBarBtn link="/contact" name="تواصل معي">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -61,7 +61,7 @@ const SideBar = () => {
           </svg>
         </SideBarBtn>
 
-        <SideBarBtn link="/setting" name="settings">
+        <SideBarBtn link="/setting" name="الاعدادات">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

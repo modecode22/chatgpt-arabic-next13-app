@@ -1,10 +1,9 @@
+import SendForm from "@/components/SendForm";
 
 const page = () => {
-  return (
-    <>
-      contact
-    </>
-  );
+  return <>
+  <SendForm/>
+  </>;
 }
 
 export default page

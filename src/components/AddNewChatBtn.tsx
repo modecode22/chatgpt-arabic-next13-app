@@ -38,7 +38,7 @@ const addNewChat = async()=>{
         />
       </svg>
       <div className="flex justify-center items-center w-max h-8 text-center absolute   left-16 bg-black/60 backdrop-blur-sm p-1 rounded-md border  border-lime-500/50 px-2 scale-0 group-hover:scale-100 group-hover:border-lime-500 group-active:border-lime-400 duration-200 ">
-        Add New Chat
+        محادثة جديدة
       </div>
     </button>
   );
