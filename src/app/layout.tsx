@@ -1,3 +1,4 @@
+import ClientProvider from '@/components/ClientProvider'
 import LogInPage from '@/components/LogInPage'
 import SessionProvider from '@/components/SessionProvider'
 import SideBar from '@/components/SideBar'
@@ -14,7 +15,7 @@ export default async function RootLayout({
 const session = await getServerSession(authOptions)
 
   return (
-    <html  lang="en">
+    <html lang="en">
       {/*
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
@@ -30,6 +31,7 @@ const session = await getServerSession(authOptions)
             <>
               <SideBar />
               <main className="ml-16 p-5 h-full flex flex-col justify-center items-center gap-5">
+              <ClientProvider/>
                 {children}
               </main>
             </>
