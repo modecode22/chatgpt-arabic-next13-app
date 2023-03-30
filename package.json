@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "@npmcli/fs": "^3.1.0",
     "@radix-ui/react-collapsible": "^1.0.1",
     "@types/node": "18.13.0",
     "@types/react": "18.0.28",

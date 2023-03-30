@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@next/font': 13.1.6
+  '@npmcli/fs': ^3.1.0
   '@radix-ui/react-collapsible': ^1.0.1
   '@tailwindcss/line-clamp': ^0.4.2
   '@types/node': 18.13.0
@@ -29,6 +30,7 @@ specifiers:
 
 dependencies:
   '@next/font': 13.1.6
+  '@npmcli/fs': 3.1.0
   '@radix-ui/react-collapsible': 1.0.1_biqbaboplfbrettd7655fr4n2y
   '@types/node': 18.13.0
   '@types/react': 18.0.28
@@ -969,6 +971,13 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
+
+  /@npmcli/fs/3.1.0:
+    resolution: {integrity: sha512-7kZUAaLscfgbwBQRbvdMYaZOWyMEcPTH/tJjnyAWJ/dvvs9Ef+CERx/qJb9GExJpl1qipaDGn7KqHnFGGixd0w==}
+    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
+    dependencies:
+      semver: 7.3.8
+    dev: false
 
   /@panva/hkdf/1.0.2:
     resolution: {integrity: sha512-MSAs9t3Go7GUkMhpKC44T58DJ5KGk2vBo+h1cqQeqlMfdGkxaVB78ZWpv9gYi/g2fa4sopag9gJsNvS8XGgWJA==}
