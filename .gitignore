@@ -4,7 +4,7 @@
 
 
 #firebase initialization
-/src/firebase.ts
+firebase.ts
 
 # dependencies
 /node_modules
