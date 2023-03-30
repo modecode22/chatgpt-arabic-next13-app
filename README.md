@@ -9,7 +9,7 @@ To install and run the project, please follow these steps:
 1. Clone the repository.
 2. Run `npm install` to install the required packages.
 3. In the `src` folder create firebase.ts file:
-`'''javescript
+```javescript
 // Import the functions you need from the SDKs you need
 import { getApp, getApps, initializeApp } from "firebase/app";
 import { getFirestore } from 'firebase/firestore'
@@ -27,11 +27,11 @@ const db = getFirestore(app);
 
 // Export the Firestore database reference
 export { db };
-`
+```
 
 4. Add your OpenAI API key to the `.env.local` file. Example:
 
-`OPENAI_API_KEY=YOUR_API_KEY`
+```OPENAI_API_KEY=YOUR_API_KEY```
 
 5. Run `npm run dev` to start the development server.
 
