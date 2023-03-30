@@ -9,7 +9,7 @@ To install and run the project, please follow these steps:
 1. Clone the repository.
 2. Run `npm install` to install the required packages.
 3. In the `src` folder create firebase.ts file:
-```javescript
+```javascript
 // Import the functions you need from the SDKs you need
 import { getApp, getApps, initializeApp } from "firebase/app";
 import { getFirestore } from 'firebase/firestore'
