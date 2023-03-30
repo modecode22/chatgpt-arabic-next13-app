@@ -9,3 +9,33 @@
   box-shadow: 0 0 20px #eeffef6b, 0 0 30px #eeffef6b, 0 0 40px rgba(131, 204, 22, 0.393), 0 0 70px rgba(131, 204, 22, 0.393), 0 0 80px rgba(131, 204, 22, 0.653), 0 0 100px rgba(131, 204, 22, 0.393), 0 0 150px rgba(131, 204, 22, 0.393);
 }
 
+
+
+.screen-overlay {    
+  background: linear-gradient(
+    rgba(4, 6, 3, 0.058),
+    rgba(153, 255, 0, 0.432) 2px,
+    transparent 2px,
+    transparent 2px
+  );
+  background-size: 50% 9px;
+  height: 100%;
+  width: 100%;
+  animation: pan-overlay 60s infinite linear;
+  position: absolute;
+  z-index: -5;
+  left: 0px;
+  top: 0px;
+}
+
+
+
+@keyframes pan-overlay {
+  from {
+    background-position: 0% 0%;
+  }
+  
+  to {
+    background-position: 0% -100%;
+  }
+}
